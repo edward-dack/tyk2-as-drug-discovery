@@ -1,0 +1,9 @@
+task,split,model,rmse_mean,rmse_std,mae_mean,mae_std,r2_mean,r2_std,spearman_mean,spearman_std,roc_auc_mean,roc_auc_std,pr_auc_mean,pr_auc_std,balanced_accuracy_mean,balanced_accuracy_std,mcc_mean,mcc_std
+classification,random,prior_baseline,,,,,,,,,0.5,0.0,0.71,0.013,0.5,0.0,0.0,0.0
+classification,random,random_forest,,,,,,,,,0.944,0.008,0.978,0.004,0.871,0.012,0.717,0.022
+classification,scaffold,prior_baseline,,,,,,,,,0.5,0.0,0.711,0.039,0.5,0.0,0.0,0.0
+classification,scaffold,random_forest,,,,,,,,,0.925,0.018,0.971,0.009,0.844,0.025,0.657,0.05
+regression,random,mean_baseline,1.086,0.025,0.875,0.023,-0.001,0.001,0.0,0.0,,,,,,,,
+regression,random,random_forest,0.648,0.037,0.463,0.015,0.644,0.029,0.8,0.012,,,,,,,,
+regression,scaffold,mean_baseline,1.087,0.051,0.876,0.043,-0.004,0.004,0.0,0.0,,,,,,,,
+regression,scaffold,random_forest,0.734,0.038,0.533,0.013,0.539,0.059,0.729,0.034,,,,,,,,
