@@ -24,3 +24,8 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.log
+
+# Data and model artefacts (regenerate with: python run_pipeline.py)
+data/raw/
+results/models/
+
